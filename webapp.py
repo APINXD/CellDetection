@@ -23,9 +23,9 @@ def predict():
         if not file:
             return
 
-        img_bytes = file.read()
-        img = Image.open(io.BytesIO(img_bytes))
-        # img = cv2.imread(file)
+        # img_bytes = file.read()
+        # img = Image.open(io.BytesIO(img_bytes))
+        img = cv2.imread(file)
         model.conf = 0.55
         # model.labels = False
         model.hide_labels = True
