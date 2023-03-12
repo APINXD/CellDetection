@@ -1,0 +1,13 @@
+train: C:\Users\APIN\Downloads\Cell detection.v2i.yolov5pytorch\train\images
+val: C:\Users\APIN\Downloads\Cell detection.v2i.yolov5pytorch\valid\images
+test: C:\Users\APIN\Downloads\Cell detection.v2i.yolov5pytorch\test\images
+
+nc: 1
+names: ['cells']
+
+roboflow:
+  workspace: proect
+  project: cell-detection-r8zgb
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proect/cell-detection-r8zgb/dataset/2
